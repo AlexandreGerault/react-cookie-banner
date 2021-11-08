@@ -81,4 +81,19 @@ export class CookieOption {
 
     return this._onRefused();
   }
+
+  public unvalidate() {
+    this._accepted = false;
+  }
+
+  public clone() {
+    return new CookieOption(
+      this._name,
+      this._accepted,
+      this._isNecessary,
+      this._duration,
+      this._onAccepted,
+      this._onRefused,
+    );
+  }
 }
