@@ -13,6 +13,7 @@
     "lint": "yarn lint:format && yarn lint:fix "
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
@@ -21,6 +22,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
@@ -29,7 +31,9 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "jest": "^27.3.1",
+    "postcss": "^8.3.11",
     "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19",
     "ts-jest": "^27.0.7",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
